@@ -21,4 +21,6 @@ urlpatterns = [
     url(r'^users/', include('users.urls')),
     url(r'^users/', include('django.contrib.auth.urls')),
     url(r'^', include('users.urls')),
+    url(r'circleblogapp/', include('circleblogapp.urls')),
+    url(r'', include('comments.urls')),
 ]
