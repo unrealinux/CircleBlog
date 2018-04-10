@@ -23,4 +23,5 @@ urlpatterns = [
     url(r'^', include('users.urls')),
     url(r'circleblogapp/', include('circleblogapp.urls')),
     url(r'', include('comments.urls')),
+    url(r'^all/rss/$', AllPostsRssFeed, name='rss'),
 ]
