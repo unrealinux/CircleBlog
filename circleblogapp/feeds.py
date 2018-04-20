@@ -1,7 +1,7 @@
 from django.contrib.syndication.views import Feed
 
 from .models import Post
-from astroid.__pkginfo__ import description
+#from astroid.__pkginfo__ import description
 
 class AllPostsRssFeed():
     
